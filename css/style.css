@@ -1,0 +1,208 @@
+/* Header Section CSS */
+header{
+	height: 100px;
+}
+
+header img{
+	padding: 30px 0px 0px;
+
+}
+
+/* Banner Section CSS */
+.banner{
+	background-image: url(../img/bg-img.png);
+	background-size: cover;
+}
+
+.banner h1{
+	font-size: 100px;
+    color: white;
+    padding: 225px 0px 0px;
+}
+
+.banner-line{
+	border: 1px solid #15a4fa;
+    width: 45%;
+    margin: 20px auto 15px;
+}
+
+.banner p{
+	color: white;
+    font-size: 17px;
+
+}
+
+.banner .btn{
+	background-color: transparent;
+    border: 1px solid #15a4fa;
+    color: white;
+    padding: 12px 30px;
+    font-size: 17px;
+    display: block;
+    margin: 80px auto 20px;
+
+}
+
+.banner .btn:hover{
+	background-color: #15a4fa;
+}
+
+.banner i{
+	font-size: 30px;
+    color: white;
+     margin: 30px 0px 100px;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4 s;
+
+}
+
+.banner i:hover{
+	color: #15a4fa;
+	cursor: pointer;
+	padding-top: 100px;
+}
+
+/* Description Section CSS */
+.description{
+	background-color: #f9f8f8;
+}
+
+.description h2{
+	padding: 80px 0px 20px;
+    color: #4e4f58;
+    font-size: 32px;
+
+}
+
+.description p{
+	line-height: 30px;
+    color: #999999;
+    font-size: 16px;
+    padding: 0px 118px 80px;
+
+}
+
+/* Features Section CSS */
+.features{
+	padding: 60px 0px;
+}
+
+.features h3{
+	padding: 25px 0px 6px;
+    font-size: 26px;
+    color: #4e4f58;
+}
+
+.features p{
+	margin: 0px 10px;
+    color: #999999;
+}
+
+.features img{
+	-webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+
+}
+
+.features img:hover{
+	cursor: pointer;
+	transform: rotate(360deg);
+}
+
+/* Portfolio Section CSS */
+.portfolio{
+	background-color: #f9f8f8;
+	padding: 70px 0px;
+}
+
+.portfolio h2{
+	color: #4e4f58;
+    font-size: 32px;
+}
+
+.portfolio p{
+	color: #999999;
+}
+
+.portfolio img{
+	background-size: cover;
+    padding: 10px 10px;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.portfolio img:hover{
+	cursor: pointer;
+	transform: scale(1.2,1.2);
+}
+
+/* Stay-with-us Section CSS */
+.stay-with-us{
+	background: url(../img/send-section-background.png);
+	background-size: cover;
+	padding: 110px 0px;
+}
+
+.stay-with-us h1{
+	color: white;
+}
+
+.stay-with-us h6{
+	color: #999999;
+	font-size: 14px;
+	padding-bottom: 30px;
+}
+
+.stay-with-us input{
+	background-color: transparent;
+}
+
+.stay-with-us textarea{
+	background-color: transparent;
+	padding: 5px 0px 100px 10px;
+
+}
+
+.stay-with-us .check{
+	color: white;
+}
+
+.stay-with-us button{
+	padding: 5px 30px;
+	margin: 0px 0px 0px 63px;
+	background-color: transparent;
+    border: 1px solid #15a4fa;
+    color: white;
+}
+
+.stay-with-us button:hover{
+	background-color: #15a4fa;
+}
+
+/* Footer Section CSS */
+footer{
+	padding: 20px 0px;
+}
+
+footer p{
+	padding-top: 17px;
+}
+
+footer .social-media{
+	font-size: 35px;
+    padding-top: 4px;
+}
+
+footer i{
+	transition: 0.4s;
+}
+
+footer i:hover{
+	transform: rotate(360deg);
+}
